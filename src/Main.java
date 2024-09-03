@@ -14,6 +14,7 @@ public class Main {
         String[] thousandArr = {"","M","MM","MMM"};
 
         String res = "";
+
         res+= thousandArr[req/1000];
         req = req%1000;
         res+= hundredArr[req/100];
